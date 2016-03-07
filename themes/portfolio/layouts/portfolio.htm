@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ this.page.title }}</title>
+	<link rel="stylesheet" href="{{ [
+		'assets/bootstrap/css/bootstrap.min.css',
+		'assets/css/app.css'
+	]|theme }}">
+</head>
+<body>
+	<nav>
+		{% partial "nav" %}	
+	</nav>
+
+	<main>
+		{% page %}
+	</main>
+
+	<footer>
+		{% partial "footer" %}
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="{{ [
+		'assets/bootstrap/js/bootstrap.min.js',
+		'assets/js/app.js'
+	]|theme }}"></script>
+
+	{% framework extras %}
+	{% scripts %}
+
+</body>
+</html>
