@@ -16,7 +16,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"navbar navbar-inverse navbar-static-top\">
+        echo "<nav role=\"navigation\" class=\"navbar navbar-inverse navbar-static-top\">
  
 \t<a href=\"#\" class=\"navbar-brand\">Porfolio</a>
 
@@ -29,8 +29,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
 \t<div class=\"collapse navbar-collapse navHeaderCollapse\">
 
 \t\t<ul class=\"nav navbar-nav\">
-
-\t\t\t<li class=\"active\"><a href=\"#home\">Home</a></li>
+\t\t\t<li class=\"active\"><a href=\"#\">Home</a></li>
 \t\t\t<li><a href=\"#About\">About</a></li>
 \t\t\t<li><a href=\"#Projects\">Projects</a></li>
 \t\t\t<li><a href=\"#Resume\">Resume</a></li>
@@ -38,7 +37,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
 \t\t</ul>
 
 \t</div>
-</div>";
+</nav>";
     }
 
     public function getTemplateName()
@@ -51,7 +50,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
         return array (  19 => 1,);
     }
 }
-/* <div class="navbar navbar-inverse navbar-static-top">*/
+/* <nav role="navigation" class="navbar navbar-inverse navbar-static-top">*/
 /*  */
 /* 	<a href="#" class="navbar-brand">Porfolio</a>*/
 /* */
@@ -64,8 +63,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
 /* 	<div class="collapse navbar-collapse navHeaderCollapse">*/
 /* */
 /* 		<ul class="nav navbar-nav">*/
-/* */
-/* 			<li class="active"><a href="#home">Home</a></li>*/
+/* 			<li class="active"><a href="#">Home</a></li>*/
 /* 			<li><a href="#About">About</a></li>*/
 /* 			<li><a href="#Projects">Projects</a></li>*/
 /* 			<li><a href="#Resume">Resume</a></li>*/
@@ -73,4 +71,4 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
 /* 		</ul>*/
 /* */
 /* 	</div>*/
-/* </div>*/
+/* </nav>*/

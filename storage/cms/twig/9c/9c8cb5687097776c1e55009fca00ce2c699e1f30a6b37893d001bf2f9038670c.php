@@ -26,14 +26,14 @@ class __TwigTemplate_a5f684fbed5eb7ef43eeaab9ad9d238e800966b5103a945d3d9fe1d1423
         echo "</title>
 \t<link rel=\"stylesheet\" href=\"";
         // line 6
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/bootstrap/css/bootstrap.min.css", 1 => "assets/css/app.css"));
-        // line 9
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/bootstrap/dist/css/bootstrap.min.css", 1 => "assets/bootstrapvalidator/dist/css/bootstrapvalidator.min.css", 2 => "assets/css/app.css"));
+        // line 10
         echo "\">
 </head>
 <body>
 \t<nav>
 \t\t";
-        // line 13
+        // line 14
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("nav"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
@@ -42,40 +42,40 @@ class __TwigTemplate_a5f684fbed5eb7ef43eeaab9ad9d238e800966b5103a945d3d9fe1d1423
 
 \t<main>
 \t\t";
-        // line 17
-        echo $this->env->getExtension('CMS')->pageFunction();
         // line 18
+        echo $this->env->getExtension('CMS')->pageFunction();
+        // line 19
         echo "\t</main>
 
 \t<footer>
 \t\t";
-        // line 21
+        // line 22
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 22
+        // line 23
         echo "\t</footer>
 
 \t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
 \t<script src=\"";
-        // line 25
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/bootstrap/js/bootstrap.min.js", 1 => "assets/js/app.js"));
-        // line 28
+        // line 26
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/bootstrap/dist/js/bootstrap.min.js", 1 => "assets/bootstrapvalidator/dist/js/bootstrapvalidator.min.js", 2 => "assets/jquery-smooth-scroll/jquery.smooth-scroll.min.js", 3 => "assets/js/app.js"));
+        // line 31
         echo "\"></script>
 
 \t";
-        // line 30
+        // line 33
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 31
+        // line 34
         echo "\t";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 32
+        // line 35
         echo "
 </body>
 </html>";
@@ -93,7 +93,7 @@ class __TwigTemplate_a5f684fbed5eb7ef43eeaab9ad9d238e800966b5103a945d3d9fe1d1423
 
     public function getDebugInfo()
     {
-        return array (  79 => 32,  75 => 31,  68 => 30,  64 => 28,  62 => 25,  57 => 22,  53 => 21,  48 => 18,  46 => 17,  37 => 13,  31 => 9,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  79 => 35,  75 => 34,  68 => 33,  64 => 31,  62 => 26,  57 => 23,  53 => 22,  48 => 19,  46 => 18,  37 => 14,  31 => 10,  29 => 6,  25 => 5,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -102,7 +102,8 @@ class __TwigTemplate_a5f684fbed5eb7ef43eeaab9ad9d238e800966b5103a945d3d9fe1d1423
 /* 	<meta charset="UTF-8">*/
 /* 	<title>{{ this.page.title }}</title>*/
 /* 	<link rel="stylesheet" href="{{ [*/
-/* 		'assets/bootstrap/css/bootstrap.min.css',*/
+/* 		'assets/bootstrap/dist/css/bootstrap.min.css',*/
+/* 		'assets/bootstrapvalidator/dist/css/bootstrapvalidator.min.css',*/
 /* 		'assets/css/app.css'*/
 /* 	]|theme }}">*/
 /* </head>*/
@@ -121,7 +122,9 @@ class __TwigTemplate_a5f684fbed5eb7ef43eeaab9ad9d238e800966b5103a945d3d9fe1d1423
 /* */
 /* 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>*/
 /* 	<script src="{{ [*/
-/* 		'assets/bootstrap/js/bootstrap.min.js',*/
+/* 		'assets/bootstrap/dist/js/bootstrap.min.js',*/
+/* 		'assets/bootstrapvalidator/dist/js/bootstrapvalidator.min.js',*/
+/* 		'assets/jquery-smooth-scroll/jquery.smooth-scroll.min.js',*/
 /* 		'assets/js/app.js'*/
 /* 	]|theme }}"></script>*/
 /* */

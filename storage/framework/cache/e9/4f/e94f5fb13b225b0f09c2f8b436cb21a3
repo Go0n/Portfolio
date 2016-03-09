@@ -1,4 +1,4 @@
-1457323258s:1470:"a:6:{s:5:"mtime";i:1457303765;s:7:"content";s:658:"<div class="navbar navbar-inverse navbar-static-top">
+1457496322s:1494:"a:6:{s:5:"mtime";i:1457494377;s:7:"content";s:670:"<nav role="navigation" class="navbar navbar-inverse navbar-static-top">
  
 	<a href="#" class="navbar-brand">Porfolio</a>
 
@@ -11,8 +11,7 @@
 	<div class="collapse navbar-collapse navHeaderCollapse">
 
 		<ul class="nav navbar-nav">
-
-			<li class="active"><a href="#home">Home</a></li>
+			<li class="active"><a href="#">Home</a></li>
 			<li><a href="#About">About</a></li>
 			<li><a href="#Projects">Projects</a></li>
 			<li><a href="#Resume">Resume</a></li>
@@ -20,7 +19,7 @@
 		</ul>
 
 	</div>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:658:"<div class="navbar navbar-inverse navbar-static-top">
+</nav>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:670:"<nav role="navigation" class="navbar navbar-inverse navbar-static-top">
  
 	<a href="#" class="navbar-brand">Porfolio</a>
 
@@ -33,8 +32,7 @@
 	<div class="collapse navbar-collapse navHeaderCollapse">
 
 		<ul class="nav navbar-nav">
-
-			<li class="active"><a href="#home">Home</a></li>
+			<li class="active"><a href="#">Home</a></li>
 			<li><a href="#About">About</a></li>
 			<li><a href="#Projects">Projects</a></li>
 			<li><a href="#Resume">Resume</a></li>
@@ -42,4 +40,4 @@
 		</ul>
 
 	</div>
-</div>";}";
+</nav>";}";
