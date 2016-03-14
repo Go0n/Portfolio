@@ -1,4 +1,4 @@
-1457924506s:11834:"a:6:{s:5:"mtime";i:1457923967;s:7:"content";s:5824:"title = "Home"
+1457925738s:11754:"a:6:{s:5:"mtime";i:1457925198;s:7:"content";s:5784:"title = "Home"
 url = "/"
 layout = "portfolio"
 is_hidden = 0
@@ -30,7 +30,7 @@ is_hidden = 0
 			{% content "about.md" %}
 		</div>
 	</section>
-	
+
 	<div class="clearfix separator"><br/></div>
 
 	<section id="Projects">
@@ -71,7 +71,7 @@ is_hidden = 0
 		<div class="content">
 			<h1 class="display-3">Resume</h1>
 			<hr>
-			<p>My resume would be listed here for download</p>
+			RESUME HERE
 		</div>
 	</section>
 
@@ -188,7 +188,7 @@ is_hidden = 0
 			</form>
 		</div>
 	</section>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:9:"portfolio";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5760:"<section class="hero" id="home">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:9:"portfolio";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5720:"<section class="hero" id="home">
   <div class="inner">
     <div class="copy">
     	<h1 class="display-3">Welcome</h1>
@@ -214,7 +214,7 @@ is_hidden = 0
 			{% content "about.md" %}
 		</div>
 	</section>
-	
+
 	<div class="clearfix separator"><br/></div>
 
 	<section id="Projects">
@@ -255,7 +255,7 @@ is_hidden = 0
 		<div class="content">
 			<h1 class="display-3">Resume</h1>
 			<hr>
-			<p>My resume would be listed here for download</p>
+			RESUME HERE
 		</div>
 	</section>
 

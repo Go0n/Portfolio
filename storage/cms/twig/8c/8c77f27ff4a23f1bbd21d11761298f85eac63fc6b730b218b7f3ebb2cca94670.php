@@ -52,7 +52,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
         // line 25
         echo "\t\t</div>
 \t</section>
-\t
+
 \t<div class=\"clearfix separator\"><br/></div>
 
 \t<section id=\"Projects\">
@@ -93,7 +93,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 \t\t<div class=\"content\">
 \t\t\t<h1 class=\"display-3\">Resume</h1>
 \t\t\t<hr>
-\t\t\t<p>My resume would be listed here for download</p>
+\t\t\tRESUME HERE
 \t\t</div>
 \t</section>
 
@@ -254,7 +254,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 /* 			{% content "about.md" %}*/
 /* 		</div>*/
 /* 	</section>*/
-/* 	*/
+/* */
 /* 	<div class="clearfix separator"><br/></div>*/
 /* */
 /* 	<section id="Projects">*/
@@ -295,7 +295,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 /* 		<div class="content">*/
 /* 			<h1 class="display-3">Resume</h1>*/
 /* 			<hr>*/
-/* 			<p>My resume would be listed here for download</p>*/
+/* 			RESUME HERE*/
 /* 		</div>*/
 /* 	</section>*/
 /* */
