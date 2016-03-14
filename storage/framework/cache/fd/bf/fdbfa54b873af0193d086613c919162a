@@ -1,16 +1,16 @@
-1457496430s:11544:"a:6:{s:5:"mtime";i:1457495829;s:7:"content";s:5679:"title = "Home"
+1457921403s:11572:"a:6:{s:5:"mtime";i:1457920202;s:7:"content";s:5693:"title = "Home"
 url = "/"
 layout = "portfolio"
 is_hidden = 0
 ==
 
-<section>
-	<div id="home" class="jumbotron">
-	  <div class="container">
-	    <h1 class="display-3">Welcome</h1>
+<section class="hero" id="home">
+  <div class="inner">
+    <div class="copy">
+    	<h1 class="display-3">Welcome</h1>
 		{% content "welcome.md" %}
-	  </div>
 	</div>
+  </div>
 </section>
 
 <div class="section">
@@ -24,53 +24,66 @@ is_hidden = 0
 <div class="container">
 
 	<section id="About">
-		{% content "about.md" %}
+		<div class="content">
+			<h1 class="display-3">About</h1>
+			<hr>
+			{% content "about.md" %}
+		</div>
 	</section>
 	
 	<div class="clearfix"><br/></div>
 
 	<section id="Projects">
-		<div class="row">
-		  <div class="col-md-4">
-		    <div class="card card-block">
-		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>
-		      <h4 class="card-title">Why</h4>
-		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		    </div>
-		  </div>
+		<div class="content">
+			<h1 class="display-3">Projects</h1>
+			<hr>
+			<div class="row">
+			  <div class="col-md-4">
+			    <div class="card card-block">
+			      <span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="text-align:center"></span>
+			      <h4 class="card-title">Specced</h4>
+			      <p class="card-text">Making specifications and checking it twice ;)</p>
+			    </div>
+			  </div>
 
-		  <div class="col-md-4">
-		    <div class="card card-block">
-		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>
-		      <h4 class="card-title">Choose</h4>
-		      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-		    </div>
-		  </div>
+			  <div class="col-md-4">
+			    <div class="card card-block">
+			      <span class="glyphicon glyphicon-fire" aria-hidden="true" style="text-align:center"></span>
+			      <h4 class="card-title">Forged</h4>
+			      <p class="card-text">All code will be completed by me.</p>
+			    </div>
+			  </div>
 
-		  <div class="col-md-4">
-		    <div class="card card-block">
-		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>
-		      <h4 class="card-title">Me</h4>
-		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-		    </div>
-		  </div>
+			  <div class="col-md-4">
+			    <div class="card card-block">
+			      <span class="glyphicon glyphicon-send" aria-hidden="true" style="text-align:center"></span>
+			      <h4 class="card-title">Shipped</h4>
+			      <p class="card-text">We will meet your go-live date.</p>
+			    </div>
+			  </div>
+			</div>
 		</div>
 	</section>
 	
 	<div class="clearfix"><br/></div>
 
 	<section id="Resume">
-		My resume would be listed here for download
+		<div class="content">
+			<h1 class="display-3">Resume</h1>
+			<hr>
+			<p>My resume would be listed here for download</p>
+		</div>
 	</section>
 
 	<div class="clearfix"><br/></div>
 
 	<section id="Contact">
+			<div class="content">
+			<h1 class="display-3">Contact Me</h1>
+			<hr>
+
 			<form class="well form-horizontal" action="/" method="post"  id="contact_form">
 			<fieldset>
-
-				<!-- Form Name -->
-				<legend>Contact Me Today!</legend>
 
 				<!-- Text input-->
 
@@ -173,14 +186,15 @@ is_hidden = 0
 
 			</fieldset>
 			</form>
+		</div>
 	</section>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:9:"portfolio";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5615:"<section>
-	<div id="home" class="jumbotron">
-	  <div class="container">
-	    <h1 class="display-3">Welcome</h1>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:9:"portfolio";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5629:"<section class="hero" id="home">
+  <div class="inner">
+    <div class="copy">
+    	<h1 class="display-3">Welcome</h1>
 		{% content "welcome.md" %}
-	  </div>
 	</div>
+  </div>
 </section>
 
 <div class="section">
@@ -194,53 +208,66 @@ is_hidden = 0
 <div class="container">
 
 	<section id="About">
-		{% content "about.md" %}
+		<div class="content">
+			<h1 class="display-3">About</h1>
+			<hr>
+			{% content "about.md" %}
+		</div>
 	</section>
 	
 	<div class="clearfix"><br/></div>
 
 	<section id="Projects">
-		<div class="row">
-		  <div class="col-md-4">
-		    <div class="card card-block">
-		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>
-		      <h4 class="card-title">Why</h4>
-		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		    </div>
-		  </div>
+		<div class="content">
+			<h1 class="display-3">Projects</h1>
+			<hr>
+			<div class="row">
+			  <div class="col-md-4">
+			    <div class="card card-block">
+			      <span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="text-align:center"></span>
+			      <h4 class="card-title">Specced</h4>
+			      <p class="card-text">Making specifications and checking it twice ;)</p>
+			    </div>
+			  </div>
 
-		  <div class="col-md-4">
-		    <div class="card card-block">
-		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>
-		      <h4 class="card-title">Choose</h4>
-		      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-		    </div>
-		  </div>
+			  <div class="col-md-4">
+			    <div class="card card-block">
+			      <span class="glyphicon glyphicon-fire" aria-hidden="true" style="text-align:center"></span>
+			      <h4 class="card-title">Forged</h4>
+			      <p class="card-text">All code will be completed by me.</p>
+			    </div>
+			  </div>
 
-		  <div class="col-md-4">
-		    <div class="card card-block">
-		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>
-		      <h4 class="card-title">Me</h4>
-		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-		    </div>
-		  </div>
+			  <div class="col-md-4">
+			    <div class="card card-block">
+			      <span class="glyphicon glyphicon-send" aria-hidden="true" style="text-align:center"></span>
+			      <h4 class="card-title">Shipped</h4>
+			      <p class="card-text">We will meet your go-live date.</p>
+			    </div>
+			  </div>
+			</div>
 		</div>
 	</section>
 	
 	<div class="clearfix"><br/></div>
 
 	<section id="Resume">
-		My resume would be listed here for download
+		<div class="content">
+			<h1 class="display-3">Resume</h1>
+			<hr>
+			<p>My resume would be listed here for download</p>
+		</div>
 	</section>
 
 	<div class="clearfix"><br/></div>
 
 	<section id="Contact">
+			<div class="content">
+			<h1 class="display-3">Contact Me</h1>
+			<hr>
+
 			<form class="well form-horizontal" action="/" method="post"  id="contact_form">
 			<fieldset>
-
-				<!-- Form Name -->
-				<legend>Contact Me Today!</legend>
 
 				<!-- Text input-->
 
@@ -343,5 +370,6 @@ is_hidden = 0
 
 			</fieldset>
 			</form>
+		</div>
 	</section>
 </div>";}";

@@ -16,18 +16,18 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<section>
-\t<div id=\"home\" class=\"jumbotron\">
-\t  <div class=\"container\">
-\t    <h1 class=\"display-3\">Welcome</h1>
+        echo "<section class=\"hero\" id=\"home\">
+  <div class=\"inner\">
+    <div class=\"copy\">
+    \t<h1 class=\"display-3\">Welcome</h1>
 \t\t";
         // line 5
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("welcome.md"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
         // line 6
-        echo "\t  </div>
-\t</div>
+        echo "\t</div>
+  </div>
 </section>
 
 <div class=\"section\">
@@ -41,58 +41,71 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 <div class=\"container\">
 
 \t<section id=\"About\">
-\t\t";
-        // line 21
+\t\t<div class=\"content\">
+\t\t\t<h1 class=\"display-3\">About</h1>
+\t\t\t<hr>
+\t\t\t";
+        // line 24
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("about.md"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
-        // line 22
-        echo "\t</section>
+        // line 25
+        echo "\t\t</div>
+\t</section>
 \t
 \t<div class=\"clearfix\"><br/></div>
 
 \t<section id=\"Projects\">
-\t\t<div class=\"row\">
-\t\t  <div class=\"col-md-4\">
-\t\t    <div class=\"card card-block\">
-\t\t      <span class=\"glyphicon glyphicon-folder-open\" aria-hidden=\"true\" style=\"text-align:center\"></span>
-\t\t      <h4 class=\"card-title\">Why</h4>
-\t\t      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-\t\t    </div>
-\t\t  </div>
+\t\t<div class=\"content\">
+\t\t\t<h1 class=\"display-3\">Projects</h1>
+\t\t\t<hr>
+\t\t\t<div class=\"row\">
+\t\t\t  <div class=\"col-md-4\">
+\t\t\t    <div class=\"card card-block\">
+\t\t\t      <span class=\"glyphicon glyphicon-list-alt\" aria-hidden=\"true\" style=\"text-align:center\"></span>
+\t\t\t      <h4 class=\"card-title\">Specced</h4>
+\t\t\t      <p class=\"card-text\">Making specifications and checking it twice ;)</p>
+\t\t\t    </div>
+\t\t\t  </div>
 
-\t\t  <div class=\"col-md-4\">
-\t\t    <div class=\"card card-block\">
-\t\t      <span class=\"glyphicon glyphicon-folder-open\" aria-hidden=\"true\" style=\"text-align:center\"></span>
-\t\t      <h4 class=\"card-title\">Choose</h4>
-\t\t      <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>
-\t\t    </div>
-\t\t  </div>
+\t\t\t  <div class=\"col-md-4\">
+\t\t\t    <div class=\"card card-block\">
+\t\t\t      <span class=\"glyphicon glyphicon-fire\" aria-hidden=\"true\" style=\"text-align:center\"></span>
+\t\t\t      <h4 class=\"card-title\">Forged</h4>
+\t\t\t      <p class=\"card-text\">All code will be completed by me.</p>
+\t\t\t    </div>
+\t\t\t  </div>
 
-\t\t  <div class=\"col-md-4\">
-\t\t    <div class=\"card card-block\">
-\t\t      <span class=\"glyphicon glyphicon-folder-open\" aria-hidden=\"true\" style=\"text-align:center\"></span>
-\t\t      <h4 class=\"card-title\">Me</h4>
-\t\t      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-\t\t    </div>
-\t\t  </div>
+\t\t\t  <div class=\"col-md-4\">
+\t\t\t    <div class=\"card card-block\">
+\t\t\t      <span class=\"glyphicon glyphicon-send\" aria-hidden=\"true\" style=\"text-align:center\"></span>
+\t\t\t      <h4 class=\"card-title\">Shipped</h4>
+\t\t\t      <p class=\"card-text\">We will meet your go-live date.</p>
+\t\t\t    </div>
+\t\t\t  </div>
+\t\t\t</div>
 \t\t</div>
 \t</section>
 \t
 \t<div class=\"clearfix\"><br/></div>
 
 \t<section id=\"Resume\">
-\t\tMy resume would be listed here for download
+\t\t<div class=\"content\">
+\t\t\t<h1 class=\"display-3\">Resume</h1>
+\t\t\t<hr>
+\t\t\t<p>My resume would be listed here for download</p>
+\t\t</div>
 \t</section>
 
 \t<div class=\"clearfix\"><br/></div>
 
 \t<section id=\"Contact\">
+\t\t\t<div class=\"content\">
+\t\t\t<h1 class=\"display-3\">Contact Me</h1>
+\t\t\t<hr>
+
 \t\t\t<form class=\"well form-horizontal\" action=\"/\" method=\"post\"  id=\"contact_form\">
 \t\t\t<fieldset>
-
-\t\t\t\t<!-- Form Name -->
-\t\t\t\t<legend>Contact Me Today!</legend>
 
 \t\t\t\t<!-- Text input-->
 
@@ -195,6 +208,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 
 \t\t\t</fieldset>
 \t\t\t</form>
+\t\t</div>
 \t</section>
 </div>";
     }
@@ -211,16 +225,16 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 
     public function getDebugInfo()
     {
-        return array (  50 => 22,  46 => 21,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  53 => 25,  49 => 24,  29 => 6,  25 => 5,  19 => 1,);
     }
 }
-/* <section>*/
-/* 	<div id="home" class="jumbotron">*/
-/* 	  <div class="container">*/
-/* 	    <h1 class="display-3">Welcome</h1>*/
+/* <section class="hero" id="home">*/
+/*   <div class="inner">*/
+/*     <div class="copy">*/
+/*     	<h1 class="display-3">Welcome</h1>*/
 /* 		{% content "welcome.md" %}*/
-/* 	  </div>*/
 /* 	</div>*/
+/*   </div>*/
 /* </section>*/
 /* */
 /* <div class="section">*/
@@ -234,53 +248,66 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 /* <div class="container">*/
 /* */
 /* 	<section id="About">*/
-/* 		{% content "about.md" %}*/
+/* 		<div class="content">*/
+/* 			<h1 class="display-3">About</h1>*/
+/* 			<hr>*/
+/* 			{% content "about.md" %}*/
+/* 		</div>*/
 /* 	</section>*/
 /* 	*/
 /* 	<div class="clearfix"><br/></div>*/
 /* */
 /* 	<section id="Projects">*/
-/* 		<div class="row">*/
-/* 		  <div class="col-md-4">*/
-/* 		    <div class="card card-block">*/
-/* 		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>*/
-/* 		      <h4 class="card-title">Why</h4>*/
-/* 		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>*/
-/* 		    </div>*/
-/* 		  </div>*/
+/* 		<div class="content">*/
+/* 			<h1 class="display-3">Projects</h1>*/
+/* 			<hr>*/
+/* 			<div class="row">*/
+/* 			  <div class="col-md-4">*/
+/* 			    <div class="card card-block">*/
+/* 			      <span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="text-align:center"></span>*/
+/* 			      <h4 class="card-title">Specced</h4>*/
+/* 			      <p class="card-text">Making specifications and checking it twice ;)</p>*/
+/* 			    </div>*/
+/* 			  </div>*/
 /* */
-/* 		  <div class="col-md-4">*/
-/* 		    <div class="card card-block">*/
-/* 		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>*/
-/* 		      <h4 class="card-title">Choose</h4>*/
-/* 		      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>*/
-/* 		    </div>*/
-/* 		  </div>*/
+/* 			  <div class="col-md-4">*/
+/* 			    <div class="card card-block">*/
+/* 			      <span class="glyphicon glyphicon-fire" aria-hidden="true" style="text-align:center"></span>*/
+/* 			      <h4 class="card-title">Forged</h4>*/
+/* 			      <p class="card-text">All code will be completed by me.</p>*/
+/* 			    </div>*/
+/* 			  </div>*/
 /* */
-/* 		  <div class="col-md-4">*/
-/* 		    <div class="card card-block">*/
-/* 		      <span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="text-align:center"></span>*/
-/* 		      <h4 class="card-title">Me</h4>*/
-/* 		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>*/
-/* 		    </div>*/
-/* 		  </div>*/
+/* 			  <div class="col-md-4">*/
+/* 			    <div class="card card-block">*/
+/* 			      <span class="glyphicon glyphicon-send" aria-hidden="true" style="text-align:center"></span>*/
+/* 			      <h4 class="card-title">Shipped</h4>*/
+/* 			      <p class="card-text">We will meet your go-live date.</p>*/
+/* 			    </div>*/
+/* 			  </div>*/
+/* 			</div>*/
 /* 		</div>*/
 /* 	</section>*/
 /* 	*/
 /* 	<div class="clearfix"><br/></div>*/
 /* */
 /* 	<section id="Resume">*/
-/* 		My resume would be listed here for download*/
+/* 		<div class="content">*/
+/* 			<h1 class="display-3">Resume</h1>*/
+/* 			<hr>*/
+/* 			<p>My resume would be listed here for download</p>*/
+/* 		</div>*/
 /* 	</section>*/
 /* */
 /* 	<div class="clearfix"><br/></div>*/
 /* */
 /* 	<section id="Contact">*/
+/* 			<div class="content">*/
+/* 			<h1 class="display-3">Contact Me</h1>*/
+/* 			<hr>*/
+/* */
 /* 			<form class="well form-horizontal" action="/" method="post"  id="contact_form">*/
 /* 			<fieldset>*/
-/* */
-/* 				<!-- Form Name -->*/
-/* 				<legend>Contact Me Today!</legend>*/
 /* */
 /* 				<!-- Text input-->*/
 /* */
@@ -383,5 +410,6 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 /* */
 /* 			</fieldset>*/
 /* 			</form>*/
+/* 		</div>*/
 /* 	</section>*/
 /* </div>*/

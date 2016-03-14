@@ -1,4 +1,10 @@
-$('.navbar-nav a').smoothScroll();
+$('.navbar-nav a, nav a').smoothScroll({offset: -50});
+
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+
 
   $(document).ready(function() {
     $('#contact_form').bootstrapValidator({
