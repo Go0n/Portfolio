@@ -23,6 +23,7 @@ div.card-block .glyphicon
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
+  margin:0px 0px 15px 0px;
 }
 
 .hero, .content
@@ -33,7 +34,7 @@ div.card-block .glyphicon
 
 .inner
 {
-  min-height:600px;
+  min-height:650px;
   position: relative;
 }
 
@@ -55,7 +56,7 @@ div.card-block .glyphicon
 
 .hero h1, .hero p
 { 
-	font-size:42px;
+	font-size:38px;
   	color:#fff;
 }
 
@@ -73,7 +74,7 @@ div.card-block .glyphicon
 
 .content h1, .content p
 {
-	  margin: 0;
+	margin: 0;
   color: white;
   position: relative;
   z-index: 1;
@@ -96,7 +97,7 @@ h1
 
 section div.content
 {
-	padding:25px 0px 25px 0px;
+	padding:15px 0px 25px 0px;
 }
 
 #Projects p, section div.content h4
@@ -107,18 +108,27 @@ section div.content
 section div.content h1
 {
 	text-align: center;
-	font-size:28px;
+	font-size:36px;
 }
 
-hr
+div.row
+{
+	padding:10px 0px 0px 0px;
+}
+
+div.content hr
 {
 	display: block;
     height: 1px;
-    margin: 1.5 em 0;
+    margin: .5em 0;
     padding: 0; 
-    border-color: #4E7EAF;
-    border-width: 2px;
-    max-width: 35%;
+    border-color: #FFF;
+}
+
+
+div.clearfix.separator
+{
+	border-top: 2px solid #ccc;
 }
 
 section p
@@ -126,10 +136,6 @@ section p
 	padding: 5px 0px 5px 0px;
 }
 
-span.glyphicon 
-{
-	color:#4E7EAF;
-}
 
 div.copy h1
 {
@@ -139,7 +145,6 @@ div.copy h1
 nav.navbar div.navHeaderCollapse
 {
 	background: white;
-	border-bottom: 1px solid black;
 }
 
 ul.nav li a, nav.navbar a
@@ -151,4 +156,9 @@ ul.nav li.active a
 {
 	background:#4E7EAF;
 	color: white;
+}
+
+body
+{
+	font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
 }

@@ -1,1 +1,1 @@
-Thank-you for visiting my website! I hope you find it interesting :)
+Let's make your idea a reality

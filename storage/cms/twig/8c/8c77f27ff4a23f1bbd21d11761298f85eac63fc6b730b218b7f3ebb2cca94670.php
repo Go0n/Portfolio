@@ -53,7 +53,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
         echo "\t\t</div>
 \t</section>
 \t
-\t<div class=\"clearfix\"><br/></div>
+\t<div class=\"clearfix separator\"><br/></div>
 
 \t<section id=\"Projects\">
 \t\t<div class=\"content\">
@@ -63,31 +63,31 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 \t\t\t  <div class=\"col-md-4\">
 \t\t\t    <div class=\"card card-block\">
 \t\t\t      <span class=\"glyphicon glyphicon-list-alt\" aria-hidden=\"true\" style=\"text-align:center\"></span>
-\t\t\t      <h4 class=\"card-title\">Specced</h4>
-\t\t\t      <p class=\"card-text\">Making specifications and checking it twice ;)</p>
+\t\t\t      <h4 class=\"card-title\">Gather</h4>
+\t\t\t      <p class=\"card-text\">Reviewing the project and setting acceptable goals will help get us on the same page.</p>
 \t\t\t    </div>
 \t\t\t  </div>
 
 \t\t\t  <div class=\"col-md-4\">
 \t\t\t    <div class=\"card card-block\">
-\t\t\t      <span class=\"glyphicon glyphicon-fire\" aria-hidden=\"true\" style=\"text-align:center\"></span>
-\t\t\t      <h4 class=\"card-title\">Forged</h4>
-\t\t\t      <p class=\"card-text\">All code will be completed by me.</p>
+\t\t\t      <span class=\"glyphicon glyphicon-fire\" aria-hidden=\"true\" style=\"text-align:center; color:#E04646\"></span>
+\t\t\t      <h4 class=\"card-title\">Forge</h4>
+\t\t\t      <p class=\"card-text\">A proven development process which will get your projects completed on time.</p>
 \t\t\t    </div>
 \t\t\t  </div>
 
 \t\t\t  <div class=\"col-md-4\">
 \t\t\t    <div class=\"card card-block\">
 \t\t\t      <span class=\"glyphicon glyphicon-send\" aria-hidden=\"true\" style=\"text-align:center\"></span>
-\t\t\t      <h4 class=\"card-title\">Shipped</h4>
-\t\t\t      <p class=\"card-text\">We will meet your go-live date.</p>
+\t\t\t      <h4 class=\"card-title\">Deploy</h4>
+\t\t\t      <p class=\"card-text\">Completing and delivering the project.</p>
 \t\t\t    </div>
 \t\t\t  </div>
 \t\t\t</div>
 \t\t</div>
 \t</section>
 \t
-\t<div class=\"clearfix\"><br/></div>
+\t<div class=\"clearfix separator\"><br/></div>
 
 \t<section id=\"Resume\">
 \t\t<div class=\"content\">
@@ -97,7 +97,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 \t\t</div>
 \t</section>
 
-\t<div class=\"clearfix\"><br/></div>
+\t<div class=\"clearfix separator\"><br/></div>
 
 \t<section id=\"Contact\">
 \t\t\t<div class=\"content\">
@@ -255,7 +255,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 /* 		</div>*/
 /* 	</section>*/
 /* 	*/
-/* 	<div class="clearfix"><br/></div>*/
+/* 	<div class="clearfix separator"><br/></div>*/
 /* */
 /* 	<section id="Projects">*/
 /* 		<div class="content">*/
@@ -265,31 +265,31 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 /* 			  <div class="col-md-4">*/
 /* 			    <div class="card card-block">*/
 /* 			      <span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="text-align:center"></span>*/
-/* 			      <h4 class="card-title">Specced</h4>*/
-/* 			      <p class="card-text">Making specifications and checking it twice ;)</p>*/
+/* 			      <h4 class="card-title">Gather</h4>*/
+/* 			      <p class="card-text">Reviewing the project and setting acceptable goals will help get us on the same page.</p>*/
 /* 			    </div>*/
 /* 			  </div>*/
 /* */
 /* 			  <div class="col-md-4">*/
 /* 			    <div class="card card-block">*/
-/* 			      <span class="glyphicon glyphicon-fire" aria-hidden="true" style="text-align:center"></span>*/
-/* 			      <h4 class="card-title">Forged</h4>*/
-/* 			      <p class="card-text">All code will be completed by me.</p>*/
+/* 			      <span class="glyphicon glyphicon-fire" aria-hidden="true" style="text-align:center; color:#E04646"></span>*/
+/* 			      <h4 class="card-title">Forge</h4>*/
+/* 			      <p class="card-text">A proven development process which will get your projects completed on time.</p>*/
 /* 			    </div>*/
 /* 			  </div>*/
 /* */
 /* 			  <div class="col-md-4">*/
 /* 			    <div class="card card-block">*/
 /* 			      <span class="glyphicon glyphicon-send" aria-hidden="true" style="text-align:center"></span>*/
-/* 			      <h4 class="card-title">Shipped</h4>*/
-/* 			      <p class="card-text">We will meet your go-live date.</p>*/
+/* 			      <h4 class="card-title">Deploy</h4>*/
+/* 			      <p class="card-text">Completing and delivering the project.</p>*/
 /* 			    </div>*/
 /* 			  </div>*/
 /* 			</div>*/
 /* 		</div>*/
 /* 	</section>*/
 /* 	*/
-/* 	<div class="clearfix"><br/></div>*/
+/* 	<div class="clearfix separator"><br/></div>*/
 /* */
 /* 	<section id="Resume">*/
 /* 		<div class="content">*/
@@ -299,7 +299,7 @@ class __TwigTemplate_48c8c84edc14c3170409cc7fb121aeaa268ee86816ea99e45b461a5697c
 /* 		</div>*/
 /* 	</section>*/
 /* */
-/* 	<div class="clearfix"><br/></div>*/
+/* 	<div class="clearfix separator"><br/></div>*/
 /* */
 /* 	<section id="Contact">*/
 /* 			<div class="content">*/
