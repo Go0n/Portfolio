@@ -1,4 +1,4 @@
-1457925738s:1834:"a:6:{s:5:"mtime";i:1457495720;s:7:"content";s:840:"<!DOCTYPE html>
+1458272217s:1948:"a:6:{s:5:"mtime";i:1458266583;s:7:"content";s:897:"<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,7 +9,7 @@
 		'assets/css/app.css'
 	]|theme }}">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<nav>
 		{% partial "nav" %}	
 	</nav>
@@ -34,7 +34,7 @@
 	{% scripts %}
 
 </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:840:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:897:"<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -45,7 +45,7 @@
 		'assets/css/app.css'
 	]|theme }}">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<nav>
 		{% partial "nav" %}	
 	</nav>

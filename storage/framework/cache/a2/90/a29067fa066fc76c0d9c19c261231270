@@ -1,4 +1,4 @@
-1457925739s:634:"a:6:{s:5:"mtime";i:1457904455;s:7:"content";s:241:"<div class="navbar navbar-default navbar-static-bottom">
+1458271954s:634:"a:6:{s:5:"mtime";i:1457904455;s:7:"content";s:241:"<div class="navbar navbar-default navbar-static-bottom">
 	<div class="container">
 		<p class="navbar-text pull-left">Site built by Robert DeSarbo</p>
 		<p class="navbar-text pull-right">&copy; {{ "now"|date("Y") }} Portfolio</p>

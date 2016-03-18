@@ -139,26 +139,64 @@ section p
 
 div.copy h1
 {
-	color:#4E7EAF
-}
-
-nav.navbar div.navHeaderCollapse
-{
-	background: white;
-}
-
-ul.nav li a, nav.navbar a
-{
-	color: black;
-}
-
-ul.nav li.active a
-{
-	background:#4E7EAF;
-	color: white;
+	color:#335677;
 }
 
 body
 {
 	font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
 }
+
+ul.nav li a, nav.navbar a
+{
+	color: rgba( 255, 255, 255, 0.8 );
+}
+
+ul.nav li.active a
+{
+	color: #6EAAE0;
+}
+
+nav.navbar-fixed-top
+{
+    background: rgba( 0, 0, 0, 0.2 );
+    border-bottom:1px solid rgba( 255, 255, 255, 0.8 );
+}
+
+nav.inverse_navbar.navbar-fixed-top, nav button.navbar-toggle
+{
+	background:#FFF;
+	border-bottom :1px solid rgba(107, 104, 104, 0.8);
+}
+
+nav.inverse_navbar ul.nav li a, nav.inverse_navbar a.navbar-brand, nav.inverse_navbar button.navbar-toggle
+{
+	color: gray;
+}
+
+nav.inverse_navbar ul.nav li.active a
+{
+	color: #6EAAE0;
+}
+
+nav, ul.nav li a, ul.nav li.active a, nav button.navbar-toggle
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+nav ul.nav>li>a:focus, nav ul.nav>li>a:hover
+{
+	color: #6EAAE0;
+	background: rgba( 0, 0, 0, 0.2 );
+}
+
+nav.inverse_navbar ul.nav>li>a:focus, nav.inverse_navbar ul.nav>li>a:hover
+{
+	color: #6EAAE0;
+	background:#FFF;
+}
+

@@ -1,10 +1,18 @@
 $('.navbar-nav a, nav a').smoothScroll({offset: -50});
 
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
+$(document).scroll(function() {
+   var scroll_start = $(this).scrollTop();;
+   var startchange = $('section#About');
+   var offset = startchange.offset();
+  if (scroll_start >= offset.top-100) 
+  {
+        $('nav').addClass('inverse_navbar');
+  }
+  else
+  { 
+        $('nav').removeClass('inverse_navbar');
+  }
 });
-
 
   $(document).ready(function() {
     $('#contact_form').bootstrapValidator({

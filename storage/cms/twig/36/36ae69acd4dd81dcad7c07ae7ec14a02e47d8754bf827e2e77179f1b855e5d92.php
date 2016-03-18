@@ -18,7 +18,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
         // line 1
         echo "<nav role=\"navigation\" class=\"navbar navbar-fixed-top\">
  
-\t<a href=\"#home\" class=\"navbar-brand\">Porfolio</a>
+\t<a href=\"#home\" class=\"navbar-brand\">Robert DeSarbo</a>
 
 \t<button class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navHeaderCollapse\">
 \t\t<span class=\"icon-bar\"></span>
@@ -26,7 +26,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
 \t\t<span class=\"icon-bar\"></span>
 \t</button>
 
-\t<div class=\"collapse navbar-collapse navHeaderCollapse\">
+\t<div class=\"collapse navbar-collapse navHeaderCollapse pull-right\">
 
 \t\t<ul class=\"nav navbar-nav\">
 \t\t\t<li class=\"active\"><a href=\"#home\">Home</a></li>
@@ -52,7 +52,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
 }
 /* <nav role="navigation" class="navbar navbar-fixed-top">*/
 /*  */
-/* 	<a href="#home" class="navbar-brand">Porfolio</a>*/
+/* 	<a href="#home" class="navbar-brand">Robert DeSarbo</a>*/
 /* */
 /* 	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">*/
 /* 		<span class="icon-bar"></span>*/
@@ -60,7 +60,7 @@ class __TwigTemplate_aa9e408bf278c5363cd685fd421f5bb049bcd6fba146bce91564236d90d
 /* 		<span class="icon-bar"></span>*/
 /* 	</button>*/
 /* */
-/* 	<div class="collapse navbar-collapse navHeaderCollapse">*/
+/* 	<div class="collapse navbar-collapse navHeaderCollapse pull-right">*/
 /* */
 /* 		<ul class="nav navbar-nav">*/
 /* 			<li class="active"><a href="#home">Home</a></li>*/

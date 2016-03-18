@@ -1,6 +1,6 @@
-1457925739s:1478:"a:6:{s:5:"mtime";i:1457920410;s:7:"content";s:662:"<nav role="navigation" class="navbar navbar-fixed-top">
+1458272087s:1512:"a:6:{s:5:"mtime";i:1458271485;s:7:"content";s:679:"<nav role="navigation" class="navbar navbar-fixed-top">
  
-	<a href="#home" class="navbar-brand">Porfolio</a>
+	<a href="#home" class="navbar-brand">Robert DeSarbo</a>
 
 	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 		<span class="icon-bar"></span>
@@ -8,7 +8,7 @@
 		<span class="icon-bar"></span>
 	</button>
 
-	<div class="collapse navbar-collapse navHeaderCollapse">
+	<div class="collapse navbar-collapse navHeaderCollapse pull-right">
 
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="#home">Home</a></li>
@@ -19,9 +19,9 @@
 		</ul>
 
 	</div>
-</nav>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:662:"<nav role="navigation" class="navbar navbar-fixed-top">
+</nav>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:679:"<nav role="navigation" class="navbar navbar-fixed-top">
  
-	<a href="#home" class="navbar-brand">Porfolio</a>
+	<a href="#home" class="navbar-brand">Robert DeSarbo</a>
 
 	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 		<span class="icon-bar"></span>
@@ -29,7 +29,7 @@
 		<span class="icon-bar"></span>
 	</button>
 
-	<div class="collapse navbar-collapse navHeaderCollapse">
+	<div class="collapse navbar-collapse navHeaderCollapse pull-right">
 
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="#home">Home</a></li>

@@ -30,7 +30,7 @@ class __TwigTemplate_a5f684fbed5eb7ef43eeaab9ad9d238e800966b5103a945d3d9fe1d1423
         // line 10
         echo "\">
 </head>
-<body>
+<body data-spy=\"scroll\" data-target=\".navbar\" data-offset=\"50\">
 \t<nav>
 \t\t";
         // line 14
@@ -107,7 +107,7 @@ class __TwigTemplate_a5f684fbed5eb7ef43eeaab9ad9d238e800966b5103a945d3d9fe1d1423
 /* 		'assets/css/app.css'*/
 /* 	]|theme }}">*/
 /* </head>*/
-/* <body>*/
+/* <body data-spy="scroll" data-target=".navbar" data-offset="50">*/
 /* 	<nav>*/
 /* 		{% partial "nav" %}	*/
 /* 	</nav>*/
