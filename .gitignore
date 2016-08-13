@@ -3,6 +3,8 @@
 /storage/framework/sessions/**
 /storage/framework/cache/**
 /storage/cms/combiner/assets/**
+/storage/cms/cache/**
+/storage/cms/twig/**
 composer.phar
 .DS_Store
 .idea
